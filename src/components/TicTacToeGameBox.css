@@ -1,0 +1,43 @@
+.game{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3vmin;
+  background-color: black;
+  width: 48vmin;
+  height: 48vmin;
+  margin-bottom: 20px;
+}
+
+.box{
+  width: 14vmin;
+  height: 14vmin;
+  background-color: #C4A4DA;
+  box-shadow: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+}
+
+.box:hover{
+  opacity: 0.8;
+}
+
+.winner-display{
+  font-size: 32px;
+  font-weight: bold;
+  color: #230934;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.reset-button{
+  width: 8vw;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+  height: 8vh;
+  margin-bottom: 20px;
+  font-size: 16px;
+  box-shadow: none;
+}
