@@ -105,7 +105,7 @@ export function Weather() {
 
   return (
     <>
-      <title>React Projects - Weather</title>
+      <title>Weather</title>
       <Header />
       <div className='main'>
         <h1>CHECK THE WEATHER IN YOUR CITY</h1>
