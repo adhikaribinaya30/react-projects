@@ -1,0 +1,45 @@
+.task-manager-main{
+  margin-top: 6rem;
+  padding: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:10px
+}
+.task-manager-heading{  
+  font-size: 24px;
+  margin: none;
+}
+.add-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:12px;
+  padding: 20px;
+}
+.task-input{
+  width: 20rem;
+  height: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.desc-input{
+  width: 20rem;
+  height: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-button{
+  margin-top:20px;
+  color: white;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: none;
+}

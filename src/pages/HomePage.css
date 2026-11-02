@@ -1,9 +1,13 @@
 .main{
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
+  background-color: #C4A4DA;
+}
+
+body{
+  background-color: #C4A4DA;
 }
 
 h1, h4{

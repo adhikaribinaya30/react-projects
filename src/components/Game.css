@@ -1,6 +1,7 @@
 .Box{
   background-color: #7F5D99;
-  width: 80%;
+  width: 28vw;
+  padding: 2rem 3rem;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -8,8 +9,4 @@
   border-radius: 20px;
   border: solid 5px #4C2365 ;
   text-decoration: none;
-}
-
-h2{
-  padding: 40px;
 }
